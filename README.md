@@ -58,7 +58,7 @@ Total = 1544 reseñas procesadas.
 
  - El job de hive crea una tabla games con los juegos únicos (con las columnas app_id, y app_name), crea una tabla game_recommendation que resume para cada juego sus reseñas, y sus respectivas recommended, voted_helpful y voted_funny
 
-'''
+````
 jobs
 -> hadoop
   -> mapper.py
@@ -74,4 +74,4 @@ jobs
   -> dsfnjdsfafsda // defrente los output
 
 
- '''
+````
